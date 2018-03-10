@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class DocumentsComponent implements OnInit {
+
+	pageTitle: string = "Documents"
   
   documents: Document[] = [
 
